@@ -39,8 +39,15 @@
       margin: 13px;
       color: white;
       border: none;
-      box-shadow: 0px 2px 5px black
+      box-shadow: 0px 2px 5px black;
+      cursor: pointer;
   }
+
+  button:nth-child(10) {
+    width: 240px;
+    border-radius: 50px;
+    }
+
   .numberContainer {
    width: 80%;
   }
@@ -53,7 +60,7 @@
       flex-direction: column;
       float: right;
       position: relative;
-      bottom: 500px;
+      bottom: 630px;
   }
 
   .operatorContainer button {

@@ -22,9 +22,9 @@ function App() {
       <Logo />
       <div className="App">
         < Display data ={0}/>
+        < Specials />
         < Numbers />
         < Operators />
-        < Specials />
       </div>
     </div>
   );
