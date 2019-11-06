@@ -12,7 +12,7 @@ const Specials = () => {
     <div className="specialContainer">
       {
          speState.map((special, index) => {
-          return < SpecialButton key={index} special={special}/>
+          return <SpecialButton key={index} special={special}/>
          })
       }
     </div>
